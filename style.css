@@ -1,1 +1,51 @@
 /*style sheet*/
+
+
+div.header {
+  float: right;
+  
+}
+
+ul.header {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  
+}
+
+li.nav-right {
+  display: inline;
+  margin-right: 10px;
+
+}
+
+
+a:link{
+  text-decoration: none;
+  color: grey;
+  font-family: arial, sans-serif
+}
+a:hover {
+  text-decoration: underline;
+  color: dark grey;
+}
+
+
+div.center {
+  clear: both;
+ margin: auto;
+  width: 58%;
+
+}
+ 
+div.img-box{
+   clear: both;
+  padding-top: 200px;
+  padding-bottom: 20px;
+}
+
+#google-image {
+  margin: auto;
+  width: 40%;
+
+}
